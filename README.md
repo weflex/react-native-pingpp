@@ -44,11 +44,11 @@ $ npm install react-native-pingpp --save
 
 ## Q & A
 
-1. Why not found the libWechat.a which is able to find at PingPlusPlus/pingpp-ios?
+- Why not found the libWechat.a which is able to find at PingPlusPlus/pingpp-ios?
 
 > Because react-native use static library to build, so that we require user to link that by yourself. Or you could directly use another WeFlex's RN library [react-native-wechat](https://github.com/weflex/react-native-wechat).
 
-2. Why not working on Android?
+- Why not working on Android?
 
 > That's just because I have no time to work on that platform, come soon later, Or Github pull request is also welcome :-)
 
