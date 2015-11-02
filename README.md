@@ -6,7 +6,7 @@ A React-Native(RN) binding library for [Pingxx.com]'s iOS and Android(TODO). For
 - iOS: [PingPlusPlus/pingpp-ios](https://github.com/PingPlusPlus/pingpp-ios)
 - Android: [PingPlusPlus/pingpp-android](https://github.com/PingPlusPlus/pingpp-android) Not worked currently.
 
-中文文档请点击[此处](来读我吧.md)。
+中文文档请点击[此处](来读我吧.md)
 
 ## Install
 
@@ -38,7 +38,7 @@ $ npm install react-native-pingpp --save
     const { createPayment } = require('react-native-pingpp');
 
     // anyway, you will be able to request and get back the charge object
-    var result = createPayment(charge, schema);
+    var result = await createPayment(charge, schema);
     // now will redirect to corresponding application, and get back.
     ```
 
