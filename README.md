@@ -6,6 +6,8 @@ A React-Native(RN) binding library for [Pingxx.com]'s iOS and Android(TODO). For
 - iOS: [PingPlusPlus/pingpp-ios](https://github.com/PingPlusPlus/pingpp-ios)
 - Android: [PingPlusPlus/pingpp-android](https://github.com/PingPlusPlus/pingpp-android) Not worked currently.
 
+中文文档请点击[此处](来读我吧.md)。
+
 ## Install
 
 ```sh
