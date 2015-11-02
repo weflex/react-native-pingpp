@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86B2B0DF1BE4E27A009A1FA5 /* RCTPingPP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86B2B0DE1BE4E27A009A1FA5 /* RCTPingPP.h */; };
+		86B2B0E11BE4E27A009A1FA5 /* RCTPingPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B2B0E01BE4E27A009A1FA5 /* RCTPingPP.m */; };
+		86B2B1351BE4E76E009A1FA5 /* libpingpp+wx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B2B1221BE4E76E009A1FA5 /* libpingpp+wx.a */; };
+		86B2B1371BE4E76E009A1FA5 /* libpingpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B2B1261BE4E76E009A1FA5 /* libpingpp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86B2B0D91BE4E27A009A1FA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				86B2B0DF1BE4E27A009A1FA5 /* RCTPingPP.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86B2B0DB1BE4E27A009A1FA5 /* libRCTPingPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTPingPP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B2B0DE1BE4E27A009A1FA5 /* RCTPingPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPingPP.h; sourceTree = "<group>"; };
+		86B2B0E01BE4E27A009A1FA5 /* RCTPingPP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTPingPP.m; sourceTree = "<group>"; };
+		86B2B1221BE4E76E009A1FA5 /* libpingpp+wx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+wx.a"; sourceTree = "<group>"; };
+		86B2B1241BE4E76E009A1FA5 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		86B2B1251BE4E76E009A1FA5 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		86B2B1261BE4E76E009A1FA5 /* libpingpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpingpp.a; sourceTree = "<group>"; };
+		86B2B1281BE4E76E009A1FA5 /* Pingpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pingpp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B2B0D81BE4E27A009A1FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B2B1371BE4E76E009A1FA5 /* libpingpp.a in Frameworks */,
+				86B2B1351BE4E76E009A1FA5 /* libpingpp+wx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B2B0D21BE4E27A009A1FA5 = {
+			isa = PBXGroup;
+			children = (
+				86B2B1261BE4E76E009A1FA5 /* libpingpp.a */,
+				86B2B1281BE4E76E009A1FA5 /* Pingpp.h */,
+				86B2B0F31BE4E76E009A1FA5 /* Channels */,
+				86B2B0DD1BE4E27A009A1FA5 /* RCTPingPP */,
+				86B2B0DC1BE4E27A009A1FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B2B0DC1BE4E27A009A1FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B2B0DB1BE4E27A009A1FA5 /* libRCTPingPP.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B2B0DD1BE4E27A009A1FA5 /* RCTPingPP */ = {
+			isa = PBXGroup;
+			children = (
+				86B2B0DE1BE4E27A009A1FA5 /* RCTPingPP.h */,
+				86B2B0E01BE4E27A009A1FA5 /* RCTPingPP.m */,
+			);
+			path = RCTPingPP;
+			sourceTree = "<group>";
+		};
+		86B2B0F31BE4E76E009A1FA5 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				86B2B1211BE4E76E009A1FA5 /* Wx */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		86B2B1211BE4E76E009A1FA5 /* Wx */ = {
+			isa = PBXGroup;
+			children = (
+				86B2B1221BE4E76E009A1FA5 /* libpingpp+wx.a */,
+				86B2B1241BE4E76E009A1FA5 /* WXApi.h */,
+				86B2B1251BE4E76E009A1FA5 /* WXApiObject.h */,
+			);
+			path = Wx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B2B0DA1BE4E27A009A1FA5 /* RCTPingPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B2B0E41BE4E27A009A1FA5 /* Build configuration list for PBXNativeTarget "RCTPingPP" */;
+			buildPhases = (
+				86B2B0D71BE4E27A009A1FA5 /* Sources */,
+				86B2B0D81BE4E27A009A1FA5 /* Frameworks */,
+				86B2B0D91BE4E27A009A1FA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTPingPP;
+			productName = RCTPingPP;
+			productReference = 86B2B0DB1BE4E27A009A1FA5 /* libRCTPingPP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B2B0D31BE4E27A009A1FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = WeFlex;
+				TargetAttributes = {
+					86B2B0DA1BE4E27A009A1FA5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = JP4369ZCVM;
+					};
+				};
+			};
+			buildConfigurationList = 86B2B0D61BE4E27A009A1FA5 /* Build configuration list for PBXProject "RCTPingPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86B2B0D21BE4E27A009A1FA5;
+			productRefGroup = 86B2B0DC1BE4E27A009A1FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B2B0DA1BE4E27A009A1FA5 /* RCTPingPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B2B0D71BE4E27A009A1FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B2B0E11BE4E27A009A1FA5 /* RCTPingPP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86B2B0E21BE4E27A009A1FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86B2B0E31BE4E27A009A1FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B2B0E51BE4E27A009A1FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Channels/Alipay",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Channels/Alipay",
+					"$(PROJECT_DIR)/Channels/ApplePay",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/ASIHttpRequest",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/BaiduMobStat",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/JSONKit",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/SDWebImage",
+					"$(PROJECT_DIR)/Channels/Bfb",
+					"$(PROJECT_DIR)/Channels/UnionPay",
+					"$(PROJECT_DIR)/Channels/Wx",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		86B2B0E61BE4E27A009A1FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Channels/Alipay",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Channels/Alipay",
+					"$(PROJECT_DIR)/Channels/ApplePay",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/ASIHttpRequest",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/BaiduMobStat",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/JSONKit",
+					"$(PROJECT_DIR)/Channels/Bfb/Dependencies/SDWebImage",
+					"$(PROJECT_DIR)/Channels/Bfb",
+					"$(PROJECT_DIR)/Channels/UnionPay",
+					"$(PROJECT_DIR)/Channels/Wx",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B2B0D61BE4E27A009A1FA5 /* Build configuration list for PBXProject "RCTPingPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B2B0E21BE4E27A009A1FA5 /* Debug */,
+				86B2B0E31BE4E27A009A1FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B2B0E41BE4E27A009A1FA5 /* Build configuration list for PBXNativeTarget "RCTPingPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B2B0E51BE4E27A009A1FA5 /* Debug */,
+				86B2B0E61BE4E27A009A1FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86B2B0D31BE4E27A009A1FA5 /* Project object */;
+}

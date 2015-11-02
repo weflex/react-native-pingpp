@@ -1,0 +1,26 @@
+{
+  "name": "react-native-pingpp",
+  "version": "1.0.0",
+  "description": "A React-Native(RN) binding library for Ping++",
+  "main": "index.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weflex/react-native-pingpp.git"
+  },
+  "keywords": [
+    "ios",
+    "react",
+    "react-native",
+    "react-component",
+    "ping++"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/weflex/react-native-pingpp/issues"
+  },
+  "homepage": "https://github.com/weflex/react-native-pingpp#readme"
+}
