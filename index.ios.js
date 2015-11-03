@@ -1,15 +1,11 @@
 'use strict';
 
 const {
-  NativeModules: {
-    PingPP {
-      setDebugMode,
-      handleOpenURLInIOS8,
-      handleOpenURLInIOS9,
-      createPayment,
-    }
-  },
-} = require('react-native');
+  setDebugMode,
+  handleOpenURLInIOS8,
+  handleOpenURLInIOS9,
+  createPayment,
+} = require('react-native').NativeModules.PingPP;
 
 class PingPlusPlus {
   
